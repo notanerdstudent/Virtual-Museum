@@ -1,0 +1,130 @@
+#footermaterial{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+#footermaterial button{
+    height: 43px;
+    border: 0;
+    box-shadow: none;
+    width: 20%;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(0, 192, 176);
+    padding:10px;
+    border-radius: 20px;
+    margin-left: 0;
+    margin-top: 20px;
+}
+#footermaterial button a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    height: 43px;
+    font-size: 20px;
+}
+#footermaterial button:hover{
+    background-color: black;
+}
+footer{
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+footer li{
+    font-size: 20px;    
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rightbdr{
+    border-right: white 2px solid;
+    padding-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: orange;
+}
+
+
+@media only screen and (max-width: 1000px){
+    #footermaterial button a{
+        font-size: 18px;
+    }
+    #footermaterial button{
+        height: 55px;
+        width: 23%;
+    }
+    footer{
+        background: rgba(0, 0, 0, 0.80);
+    }
+    footer li{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    #footermaterial button a{
+        font-size: 17px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 660px){
+    #footermaterial button a{
+        font-size: 16px;
+        height: 85px;
+    }
+    footer{
+        background: rgba(0, 0, 0, 0.80);
+    }
+    footer li{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #footermaterial button a{
+        font-size: 14px;
+        height: 85px;
+    }
+    footer{
+        background: rgba(0, 0, 0, 0.80);
+    }
+    footer li{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 450px){
+    #footermaterial{
+        margin-top: 0;
+    }
+    #footermaterial button{
+        width: 25%;
+    }
+    #footermaterial button a{
+        font-size: 12px;
+        height: 85px;
+    }
+}
